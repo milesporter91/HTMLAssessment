@@ -42,7 +42,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td colspan="2">Denver</td>
+                        <td colspan="1">Denver</td>
                         <td colspan="2">7</td>
                         <td colspan="2">3</td>
                         <td colspan="2">0</td>
@@ -50,7 +50,7 @@
                         <td colspan="2">17</td>
                     </tr>
                     <tr>
-                        <td colspan="2">Chicago</td>
+                        <td colspan="1">Chicago</td>
                         <td colspan="2">0</td>
                         <td colspan="2">6</td>
                         <td colspan="2">3</td>
@@ -62,7 +62,7 @@
                     
                         <tr>
                             <strong>
-                            <td colspan="3">Total</td>
+                            <td colspan="2">Total</td>
                             <td colspan="2">7</td>
                             <td colspan="2">9</td>
                             <td colspan="2">3</td>
@@ -105,7 +105,47 @@
                 </ul>
             </li>
         </ul>
-
+    </section>
+    <section id="form">
+        <h1>FORMS</h1>
+             <!--            TEXT BOX                -->
+            <label for="firstname">First Name:</label>
+            <input type="text" name="firstname" id="firstname" placeholder="Enter your first name">
+            <label for="lastname">Last Name:</label>
+            <input type="text" name="lastname" id="lastname" placeholder="Enter your last name">
+            <br>
+             <!--            DROPDOWN                -->
+            <label for="favoritesport">Favorite Sport:</label>
+            <br>
+            <select id="favoritesport" name="favoritesport">
+                <option value="soccer">Soccer</option>
+                <option value="football">Football</option>
+                <option value="hockey">Ice Hockey</option>
+            </select>
+            <br>
+            <!--            CHECKBOXES                -->
+            <label for="checkboxes">I have:</label>
+            <input type="checkbox" name="checkboxes" id="attended">
+            <label for="attended">Attended</label>
+            <input type="checkbox" name="checkboxes" id="played">
+            <label for="played">Played</label>
+            <input type="checkbox" name="checkboxes" id="coached">
+            <label for="coached">Coached</label>
+            <input type="checkbox" name="checkboxes" id="beton">
+            <label for="beton">Bet on</label>
+            <br>
+            <label for="checkboxes">this sport</label>
+            <br>
+             <!--            RADIO               -->
+                         <label for="version">For this sport I prefer the:</label>
+            <input type="radio" name="version" id="amateur">
+            <label for="amateur">Amateur</label>
+            <input type="radio" name="version" id="college">
+            <label for="college">College</label>       
+            <input type="radio" name="version" id="professional">
+            <label for="professional">Professional</label>
+            <br>
+            <input type="submit" value="Submit Query">               
     </section>
     
 </body>
